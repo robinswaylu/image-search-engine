@@ -1,7 +1,7 @@
 {
-  "name": "url-shortener",
+  "name": "image-search-engine",
   "version": "1.0.1",
-  "description": "URL Shortener based on mongoDB and nodeJS",
+  "description": "image search engine powered by Google api",
   "scripts": {
     "start": "node server.js"
   },

@@ -1,18 +1,15 @@
-# The URL Shortener
+# Image search engine 
  
 ## Overview
 
-The URL Shortener is the url shortener which shorten your url so your url is short.
+image search engine powered by google json api 
 
 # Quick Start Guide
 
-### Prerequisites
-
-In order to use The URL Shortener, you must have the following installed:
-
-- [Node.js](https://nodejs.org/)
-- [NPM](https://nodejs.org/)
-- [MongoDB](http://www.mongodb.org/)
+User Story: 
+- I can get the image URLs, alt text and page urls for a set of images relating to a given search string.
+- I can paginate through the responses by adding a ?offset=2 parameter to the URL.
+- I can get a list of the most recently submitted search strings.
 
 ## License
 

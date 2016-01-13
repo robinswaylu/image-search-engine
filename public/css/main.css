@@ -6,87 +6,34 @@ html {
   height: 100%;
   margin: 0;
   padding: 0;
-  background: radial-gradient(#59ABE3, #59ABE3, #59ABE3);
+  background: #FCFCFC;
   background-size: cover;
+  color:black;
   font-family: 'Vollkorn', serif;
   text-align: center;
+  font-size:1.5em;
 }
 
-.wrapper {
-  height: 100%;
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  resize: both;
-  overflow: auto;
+.wrapper{
+  margin: 0;
+  padding: 1% 5%;
+}
+p, li{
+  font-family: 'arial', sans-serif;
+  font-size: 0.7em;
+  text-align:left;
+  margin:0 auto; 
+  width:50%;
+  
+} 
+
+.header img { 
+  width: 80px;
+  height: 100px; 
 }
 
-.inputWrapper input:first-child {
-  position: relative;
-  color: dimgray;
-  z-index: 10000;  
-}
-
-.inputWrapper input:nth-child(2) {
-  border:none;
-  color: white;
-  background-color: #D24D57;
-}
- 
-.icon{
-  position: relative;
-  z-index: 10000;
-  cursor:pointer;
-}
- 
-.overlay{
-  color: whitesmoke;
-}
-.mark { 
-  position: relative;
-  font-size: 5em;
-  z-index: 10000;
-}
-
-::-webkit-input-placeholder {
-  color: black;
-}
-
-.overlay::after {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10;
-  width: 100%;
-  height: 100%;
-  background: rgba(11, 43, 205, 0.6);
-  background: rgba(1, 1, 1, 0.6);
-  opacity: 0;
-  -webkit-transition: opacity 0.3s;
-  transition: opacity 0.4s;
-  pointer-events: none;
-}
-
-.inputField:focus ~ .overlay::after {
-  opacity: 1;
-}
-
-.inputField:focus {
-  outline: none;
-}
-
-.inputField:focus ~ .overlay,
-.inputField:focus ~ .icon{
-  color: white;
-}
-
-.inputField:focus ~ .icon{
-  color: white; 
-}
-
- 
-
- 
+.header h1 {  
+  display:inline;
+  position:relative;
+  top: -10px;
+} 
